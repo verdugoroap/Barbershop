@@ -1,0 +1,22 @@
+//imports
+
+//abstract
+@import "abstrac/variables";
+
+//vendor
+@import "vendor/Boostrap4.6/bootstrap.scss";
+
+//base
+@import "base/reset";
+@import "base/typography";
+
+//components
+@import "components/buttons";
+@import "components/pagination";
+
+//layout
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/datossection";

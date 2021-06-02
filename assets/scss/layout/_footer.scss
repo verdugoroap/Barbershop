@@ -1,0 +1,14 @@
+.footer {
+    padding: 70px 0;
+    background-color: $eerie-black;
+    &__imagen {
+        width: 90px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 100px 0;
+    }
+}

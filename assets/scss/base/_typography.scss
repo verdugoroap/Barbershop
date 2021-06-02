@@ -1,0 +1,37 @@
+/*
+Orden fuentes
+*/
+
+$primary-font: $roboto;
+$primary-font-light: $roboto-light;
+$primary-font-regular: $roboto-regular;
+$secondary-font: $playfair;
+$secondary-font-regular: $playfair-regular;
+$secondary-font-blackItalic: $playfair-blackItalic;
+
+/*
+Tamaño fuentes
+*/
+
+$small-font:12px;
+$medium-font: 16px;
+$large-font: 18px;
+$x-large-font: 30px;
+$xx-large-font: 70px;
+
+/*
+Color scheme
+*/
+
+$primary-scheme: $spanish-pink;
+$secondary-scheme: $nickel;
+$light-scheme: $light-gray;
+$dark-scheme: $eerie-black;
+
+/*
+State
+*/
+
+$normal-state: $primary-scheme;
+$hover-state: $secondary-scheme;
+$active-state: $light-scheme;

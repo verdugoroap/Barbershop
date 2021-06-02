@@ -1,0 +1,37 @@
+.main {
+    padding: 40px 5%;
+    &__fecha {
+        padding: 20px 0;
+        font-family: $secondary-font;
+        font-size: $large-font;
+        font-weight: $playfair-regular;
+        color: $nickel;
+    }
+    &__parrafo {
+        padding: 10px 0;
+        line-height: 3;
+        color: $nickel;
+        font-weight: $roboto-light;
+    }
+    &__parrafo:last-child {
+        margin: 0;
+    }
+    &__parrafo-emphasis {
+        color: $spanish-pink;
+        font-weight: $roboto-regular;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        &__fecha {
+            padding: 0 10px;
+        }
+        &__parrafo {
+            padding: 0 10px;
+        }
+        &__parrafo-emphasis {
+            display: none;
+        }
+    }
+}

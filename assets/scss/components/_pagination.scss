@@ -1,0 +1,44 @@
+.paginacion {
+    background-color: $platinum;
+    padding: 55px 0;
+    &__link {
+        color: $raisin-black;
+        text-decoration: none;
+        margin: 0 .5px;
+    }
+    &__link:hover {
+        color: $eerie-black;
+    }
+    &__link__anterior {
+        border-radius: 25px 0 0 25px!important;
+    }
+    &__link__siguiente {
+        color: $raisin-black;
+        text-decoration: none;
+        border-radius: 0 25px 25px 0!important;
+    }
+    &__link__siguiente:hover {
+        color: $eerie-black;
+    }
+    &__link__activo {
+        color: $white;
+        background-color: $nickel;
+    }
+}
+
+.pagination-lg {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .paginacion {
+        padding: 80px;
+        &__link {
+            margin: 0;
+        }
+        &__link__activo {
+            color: $white;
+            background-color: $eerie-black;
+        }
+    }
+}

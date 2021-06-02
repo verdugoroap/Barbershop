@@ -1,0 +1,84 @@
+.sectionDatos {
+    &__imagen {
+        padding-left: 70px;
+    }
+    &__foto {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    &__redes {
+        padding: 20px 0;
+    }
+    &__nombre {
+        color: $dark-scheme;
+        font-family: $secondary-font;
+        font-size: $x-large-font;
+        font-weight: $secondary-font-blackItalic;
+        font-style: italic;
+    }
+    &__instagram {
+        color: $primary-scheme;
+        font-size: $large-font;
+        font-weight: $primary-font-light;
+        margin-bottom: 0;
+    }
+    &__instagram:hover {
+        color: $hover-state;
+    }
+    &__instagram:active {
+        color: $active-state;
+    }
+    &__paginaWeb {
+        color: $primary-scheme;
+        font-size: $large-font;
+        font-weight: $primary-font-light;
+    }
+    &__paginaWeb:hover {
+        color: $hover-state;
+    }
+    &__paginaWeb:active {
+        color: $active-state;
+    }
+    &__articulo {
+        padding: 0;
+    }
+    &__parrafo {
+        color: $nickel;
+        font-weight: $primary-font-light;
+        line-height: 2.5;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionDatos {
+        &__imagen {
+            padding-left: 25%;
+        }
+        &__foto {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__redes {
+            padding: 0 25%;
+        }
+        &__nombre {
+            padding: 20px 0 10px 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__instagram {
+            text-align: center;
+        }
+        &__paginaWeb {
+            text-align: center;
+        }
+        &__parrafo {
+            display: none;
+        }
+    }
+}

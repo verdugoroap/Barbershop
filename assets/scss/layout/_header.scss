@@ -1,0 +1,47 @@
+
+.header {
+    background: url(assets/img/post-image.jpg);
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    &__titulo {
+        position: absolute;
+        margin: 0;
+        color: $white;
+        width: 100%;
+        bottom: 50%;
+        text-align: center;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-blackItalic;
+        font-size: $xx-large-font;
+        font-style: italic;
+    }
+    &__icono {
+        list-style: none;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        top: 90%;
+        color: $white;
+    }
+    &__icono:first-child {
+        top: 87%
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding: 0;
+        margin: 0;
+        &__titulo {
+            font-size: $x-large-font;
+            line-height: 1.5;
+            padding: 0 80px;
+            vertical-align: middle;
+        }
+    }
+}

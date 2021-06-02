@@ -1,0 +1,35 @@
+
+.botonesMain {
+    padding: 40px 4%;
+    &__compartir {
+        text-decoration: none;
+        border: none;
+        margin: 0 5px;
+        padding: 11px 20px;
+        font-family: $primary-font;
+        font-weight: $primary-font-regular;
+        font-size: $medium-font;
+        color: $white;
+        background-color: $nickel;
+        border-radius: 25px;
+        user-select: none;
+        -webkit-appearance: button;
+    }
+    &__compartir:hover {
+        background-color: $light-gray;
+    }
+    &__compartir:focus {
+        background-color: $nickel;
+        border: 2px solid $light-gray;
+    }
+}
+
+@media (max-width: 576px) {
+    .botonesMain {
+        margin: 0!important;
+        padding: 0;
+    }
+    .botonesMain__compartir {
+        box-sizing: 0!important;
+    }
+}
