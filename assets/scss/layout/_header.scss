@@ -1,6 +1,6 @@
 
 .header {
-    background: url(assets/img/post-image.jpg);
+    background: url(img/post-image.jpg);
     height: 100vh;
     width: 100%;
     margin: 0 auto;
@@ -26,7 +26,8 @@
         bottom: 0;
         right: 50%;
         top: 90%;
-        color: $white;
+        color: $white; 
+        
     }
     &__icono:first-child {
         top: 87%
